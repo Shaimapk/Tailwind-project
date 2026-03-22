@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Design lab</title>
         <link href="../dist/output.css" rel="stylesheet" />
     </head>
@@ -9,9 +10,11 @@
         <main>
             <div class="w-full h-full">
                 <!-- header -->
+
                 <nav class="w-full h-[12vh] flex justify-between items-center px-7.5">
                     <h1 class="text-4xl font-semibold">DesignLab</h1>
-                    <ul class="flex gap-4">
+                    <div class="hidden sm:flex">
+                        <ul class="flex gap-4">
                         <li>
                             <a href="" class="text-black hover:text-red-500 transition-all duration-500 hover:duration-500"
                                 >Home</a
@@ -32,7 +35,8 @@
                                 >Contact</a
                             >
                         </li>
-                    </ul>
+                        </ul>
+                    </div>
                 </nav>
 
                 <!-- main content -->
